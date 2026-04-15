@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - My Portfolio</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        .info-item {
+            margin-bottom: 20px;
+        }
+        .info-item strong {
+            display: block;
+            color: #222;
+            margin-bottom: 3px;
+        }
+        .info-item p {
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">MyPortfolio</div>
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="interests.html">Interests</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="banner">
+        <h1>Contact Me</h1>
+        <p>I would love to hear from you!</p>
+    </div>
+
+    <!-- Contact Content -->
+    <div class="container">
+        <div class="contact-wrapper">
+
+            <!-- Contact Info -->
+            <div>
+                <h2>Contact Info</h2>
+
+                <!-- Inline CSS for icon badges -->
+                <div class="info-item">
+                    <span style="background-color: #4a90e2; color: #fff; padding: 4px 10px; border-radius: 4px; font-size: 13px;">Email</span>
+                    <p>sanjog.adhikari@kavyaschool.edu.np</p>
+                </div>
+
+                <div class="info-item">
+                    <span style="background-color: #27ae60; color: #fff; padding: 4px 10px; border-radius: 4px; font-size: 13px;">Location</span>
+                    <p>Kathmandu, Nepal</p>
+                </div>
+
+                <div class="info-item">
+                    <span style="background-color: #e74c3c; color: #fff; padding: 4px 10px; border-radius: 4px; font-size: 13px;">School</span>
+                    <p>Kavya School, Grade 11 | Chisapani</p>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="card">
+                <h2>Send a Message</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Sanjog Adhikari | CS427 Computer Science | Kavya School</p>
+    </footer>
+
+</body>
+</html>

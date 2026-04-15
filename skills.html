@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Skills - My Portfolio</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        .level {
+            font-size: 13px;
+            color: #888;
+            margin-bottom: 8px;
+        }
+        .soft-list {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .soft-list li {
+            background-color: #f0f4ff;
+            border: 1px solid #c0d0f0;
+            padding: 12px;
+            border-radius: 6px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">MyPortfolio</div>
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html" class="active">Skills</a></li>
+            <li><a href="interests.html">Interests</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="banner">
+        <h1>My Skills</h1>
+        <p>What I have learned so far</p>
+    </div>
+
+    <!-- Skills Content -->
+    <div class="container">
+
+        <h2>Technical Skills</h2>
+        <div class="grid-4">
+
+            <!-- Inline CSS used for individual skill icon colors -->
+            <div class="skill-card">
+                <div style="background-color: #e34c26; color: #fff; padding: 8px; border-radius: 6px; font-weight: bold; margin-bottom: 10px;">HTML</div>
+                <h3>HTML</h3>
+                <p class="level">Beginner</p>
+                <div class="bar-bg">
+                    <div class="bar-fill" style="width: 35%;"></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div style="background-color: #264de4; color: #fff; padding: 8px; border-radius: 6px; font-weight: bold; margin-bottom: 10px;">CSS</div>
+                <h3>CSS</h3>
+                <p class="level">Beginner</p>
+                <div class="bar-bg">
+                    <div class="bar-fill" style="width: 35%;"></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div style="background-color: #555; color: #fff; padding: 8px; border-radius: 6px; font-weight: bold; margin-bottom: 10px;">C</div>
+                <h3>C Programming</h3>
+                <p class="level">Beginner</p>
+                <div class="bar-bg">
+                    <div class="bar-fill" style="width: 30%;"></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div style="background-color: #27ae60; color: #fff; padding: 8px; border-radius: 6px; font-weight: bold; margin-bottom: 10px;">QB</div>
+                <h3>QBasic</h3>
+                <p class="level">Intermediate</p>
+                <div class="bar-bg">
+                    <div class="bar-fill" style="width: 60%;"></div>
+                </div>
+            </div>
+
+        </div>
+
+        <h2 style="margin-top: 40px;">Soft Skills</h2>
+        <ul class="soft-list">
+            <li>&#10003; Problem Solving</li>
+            <li>&#10003; Teamwork</li>
+            <li>&#10003; Communication</li>
+            <li>&#10003; Time Management</li>
+            <li>&#10003; Critical Thinking</li>
+            <li>&#10003; Creativity</li>
+        </ul>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Sanjog Adhikari | CS427 Computer Science | Kavya School</p>
+    </footer>
+
+</body>
+</html>
